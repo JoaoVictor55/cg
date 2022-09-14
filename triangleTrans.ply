@@ -1,0 +1,15 @@
+ply
+format ascii 1.0
+comment this file is a triangle translated by 3 units in horizontal
+comment and -4 in vertical.
+element vertex 3
+property float32 x
+property float32 y
+property float32 z
+element face 1
+property list uchar int vertex_index
+end_header
+7 1 0
+10 1 0
+8.5 2.5 0
+3 0 1 2
