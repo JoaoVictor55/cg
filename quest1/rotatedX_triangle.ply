@@ -1,0 +1,14 @@
+ply
+format ascii 1.0 
+comment this file is a triangle
+element vertex 3
+property float32 x
+property float32 y
+property float32 z
+element face 1
+property list uchar int vertex_index
+end_header
+0.7320508076	-0.3660254038	3.366025404
+2.464101615	0.1339745962	4.232050808
+0.5980762114	0.75	5.299038106
+3 0 1 2
