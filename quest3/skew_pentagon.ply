@@ -1,0 +1,16 @@
+ply
+format ascii 1.0
+comment this file is a pentagon
+element vertex 5
+property float32 x
+property float32 y
+property float32 z
+element face 1
+property list uchar int vertex_index
+end_header
+2.876710692	1.030570231	0.19
+0.5106852877 0.5305702305 1.922050808
+-4.115954988 -0.4471539031 1.508986558
+-4.617339376 -0.5531088913 -0.4839745962
+-0.2829938341 0.3628460969 -1.29693575
+5 0 1 2 3 4

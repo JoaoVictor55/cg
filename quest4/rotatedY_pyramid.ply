@@ -1,0 +1,21 @@
+ply
+format ascii 1.0
+comment this file is a pyramid
+element vertex 5
+property float32 x
+property float32 y
+property float32 z
+element face 6
+property list uchar int vertex_index
+end_header
+1.683012702	-0.1830127019 -0.3660254038
+3.183012702	0.6830127019 0.6339745962
+4.049038106	1.183012702	-1.098076211
+2.549038106	0.3169872981 -2.098076211
+3.866025404	-1.232050808 -0.7320508076
+3 0 1 2
+3 0 2 3
+3 0 3 4
+3 4 3 2
+3 4 2 1
+3 4 1 0

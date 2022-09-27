@@ -1,0 +1,24 @@
+ply
+format ascii 1.0
+comment this file is a octahedron
+element vertex 6
+property float32 x
+property float32 y
+property float32 z
+element face 8
+property list uchar int vertex_index
+end_header
+-0.5	-0.4330127019	1.25
+0.8660254038	-0.6160254038	0.9330127019
+0.3660254038	0.6830127019	1.183012702
+1.232050808	0.06698729811	2.116025404
+-0.1339745962	0.25	2.433012702
+0.3660254038	-1.049038106	2.183012702
+3 2 1 0
+3 3 1 2
+3 2 0 4
+3 2 4 3
+3 0 1 5
+3 5 1 3
+3 4 0 5
+3 3 4 5
